@@ -1,9 +1,21 @@
 import React from "react";
+import Config from "../Config.json";
+import {Helmet} from "react-helmet";
+
+const TITLE = "Skills | " + Config.SITE_TITLE;
+const DESC = "Currently acquired Skills.";
+const CANONICAL = Config.SITE_DOMAIN + "/";
 
 class Skills extends React.Component {
     render() {
         return(
             <div>
+                <Helmet>
+                    <title>{TITLE}</title>
+                    <link rel="canonical" href={CANONICAL} />
+                    <meta name="description" content={DESC} />
+                    <meta name="theme-color" content={Config.THEME_COLOR} />
+                </Helmet>
                 {/*start section skills*/}
                 <div id="services" />
                     <div class="container">

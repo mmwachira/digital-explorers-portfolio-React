@@ -1,13 +1,24 @@
 import React from "react";
+import Config from "../Config.json";
+import {Helmet} from "react-helmet";
 import aiPhoto from '../images/portfolio/1.jpg';
 import gameDevPhoto from '../images/portfolio/gamedev.jpeg';
 import webDevPhoto from '../images/portfolio/3.jpg';
 
+const TITLE = "Projects | " + Config.SITE_TITLE;
+const DESC = "View Martin Wachira's Portfolio.";
+const CANONICAL = Config.SITE_DOMAIN + "/";
 
 class Projects extends React.Component {
     render() {
         return(
             <div>
+                <Helmet>
+                    <title>{TITLE}</title>
+                    <link rel="canonical" href={CANONICAL} />
+                    <meta name="description" content={DESC} />
+                    <meta name="theme-color" content={Config.THEME_COLOR} />
+                </Helmet>
                 {/*start section projects*/}
                 <div id="portfolio" class="text-center paddsection">
 

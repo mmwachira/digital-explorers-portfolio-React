@@ -1,4 +1,8 @@
 import $ from "jquery";
+//import '../lib/owlcarousel/owl.carousel.js';
+//import '../lib/magnific-popup/magnific-popup.js';
+//import '../lib/isotope/isotope.pkgd.js';
+//import '../lib/typed/typed.js';
 
 /*global $, jQuery, alert*/
 $(document).ready(function() {

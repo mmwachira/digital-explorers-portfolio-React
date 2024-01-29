@@ -1,6 +1,8 @@
 import React from "react";
 import Logo from '../images/logo.png';
 import Home from "../pages/Home";
+import 'https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js';
+import 'https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js';
 
 class Navigation extends React.Component {
     render() {

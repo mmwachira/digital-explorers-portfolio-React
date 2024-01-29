@@ -8,8 +8,13 @@ import Interests from "./components/Interests";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
+
 import './App.css';
 import './css/responsive.css';
+import './lib/ionicons/css/ionicons.min.css';
+import './lib/owlcarousel/assets/owl.carousel.min.css';
+import './lib/magnific-popup/magnific-popup.css';
+import './lib/hover/hover.min.css';
 
 function App() {
   return (
