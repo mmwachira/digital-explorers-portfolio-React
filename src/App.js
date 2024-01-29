@@ -16,6 +16,8 @@ import './lib/owlcarousel/assets/owl.carousel.min.css';
 import './lib/magnific-popup/magnific-popup.css';
 import './lib/hover/hover.min.css';
 
+//import './js/main.js';
+
 function App() {
   return (
     <div>

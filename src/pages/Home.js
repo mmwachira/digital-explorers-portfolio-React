@@ -8,8 +8,8 @@ import {Helmet} from "react-helmet";
 //import '../lib/owlcarousel/owl.carousel.min.js';
 //import '../lib/magnific-popup/magnific-popup.min.js';
 //import '../lib/isotope/isotope.pkgd.min.js';
-import 'https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js';
-import 'https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js';
+//import 'https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js';
+//import 'https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js';
 //import '../js/main.js';
 
 const TITLE = "Home | " + Config.SITE_TITLE;
@@ -25,20 +25,17 @@ class Home extends React.Component{
                 <link rel="canonical" href={CANONICAL} />
                 <meta name="description" content={DESC} />
                 <meta name="theme-color" content={Config.THEME_COLOR} />
+                <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" />
+                <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" />
+                <script src="../js/main.js" />
                 
                 {/*<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script> */}
                 
             </Helmet>
-        <body>
-        {/*JavaScript Libraries*/}
-        
-
-        {/* Contact Form JavaScript File */}
-        {/*<script src={contactForm}></script>*/}
-
-        {/*Main JavaScript File*/}
-        
-        </body>
+            <body>
+            
+            
+            </body>
         </html>     
         
         );

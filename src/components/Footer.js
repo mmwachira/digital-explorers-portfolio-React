@@ -1,6 +1,4 @@
 import React from "react";
-import 'https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js';
-import 'https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js';
 
 class Footer extends React.Component {
     render() {
@@ -12,8 +10,8 @@ class Footer extends React.Component {
                     <div class="socials-media text-center">
 
                         <ul class="list-unstyled">
-                        <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                        <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                        <li><a href="https://web.facebook.com/martin.wachira.984/"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/_martiniiiz"><i class="ion-social-twitter"></i></a></li>
                         <li><a href="https://www.instagram.com/_martinwachira/"><i class="ion-social-instagram"></i></a></li>
                         <li><a href="https://www.linkedin.com/in/martin-wachira-3abaa6200/"><i class="ion-social-linkedin"></i></a></li>
                         <li><a href="https://github.com/mmwachira"><i class="ion-social-github"></i></a></li>
