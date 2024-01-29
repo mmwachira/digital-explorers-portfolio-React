@@ -1,4 +1,7 @@
 import React from "react";
+import archeryimg from '../images/archery.jpg';
+import formula1img from '../images/Formula.jpg';
+import gameImg from '../images/Game.jpg';
 
 class Interests extends React.Component{
     render() {
@@ -20,7 +23,7 @@ class Interests extends React.Component{
                         <div class="col-lg-4 col-md-6">
                             <div class="interests-info">
 
-                            <a><img src="../images/archery.jpg" class="img-responsive" alt="img" /></a>
+                            <a><img src= {archeryimg} class="img-responsive" alt="img" /></a>
 
                             <div class="interests-txt">
 
@@ -36,7 +39,7 @@ class Interests extends React.Component{
                         <div class="col-lg-4 col-md-6">
                             <div class="interests-info">
 
-                            <a><img src="images/Formula.jpg" class="img-responsive" alt="img" /></a>
+                            <a><img src={formula1img} class="img-responsive" alt="img" /></a>
 
                             <div class="interests-txt">
 
@@ -52,7 +55,7 @@ class Interests extends React.Component{
                         <div class="col-lg-4 col-md-6">
                             <div class="interests-info">
 
-                            <a><img src="images/Game.jpg" class="img-responsive" alt="img" /></a>
+                            <a><img src={gameImg} class="img-responsive" alt="img" /></a>
 
                             <div class="interests-txt">
 

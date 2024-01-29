@@ -1,4 +1,5 @@
 import Home from "./pages/Home";
+import Navigation from "./components/Navigation";
 import Header from "./components/Header";
 import Personal from "./components/Personal";
 import Skills from "./components/Skills";
@@ -8,10 +9,12 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 import './App.css';
+import './css/responsive.css';
 
 function App() {
   return (
     <div>
+      <Navigation />
       <Header />
       <Home />
       <Personal />

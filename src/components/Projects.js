@@ -1,4 +1,8 @@
 import React from "react";
+import aiPhoto from '../images/portfolio/1.jpg';
+import gameDevPhoto from '../images/portfolio/gamedev.jpeg';
+import webDevPhoto from '../images/portfolio/3.jpg';
+
 
 class Projects extends React.Component {
     render() {
@@ -32,19 +36,19 @@ class Projects extends React.Component {
 
                         <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits webdesign">
                         <a href="https://github.com/mmwachira/mushroom-classifier-ai">
-                            <img src="../images/portfolio/1.jpg" alt="img" />
+                            <img src={aiPhoto} alt="img" />
                         </a>
                         </div>
 
                         <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits photography">
                         <a href="https://github.com/mmwachira/128968">
-                            <img src="../images/portfolio/gamedev.jpeg"  alt="img" />
+                            <img src={gameDevPhoto}  alt="img" />
                         </a>
                         </div>
 
                         <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding webdesign photography">
                         <a href="https://github.com/mmwachira/digital-explorers-portfolio">
-                            <img src="../images/portfolio/3.jpg" alt="img" />
+                            <img src={webDevPhoto} alt="img" />
                         </a>
                         </div>
 

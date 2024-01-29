@@ -1,4 +1,5 @@
 import React from "react";
+import personalPhoto from '../images/Me-here.jpeg';
 
 class Personal extends React.Component {
     render() {
@@ -12,7 +13,7 @@ class Personal extends React.Component {
                         <div class="col-lg-4 ">
                         <div class="div-img-bg">
                             <div class="about-img">
-                            <img src="images/Me-here.jpeg" class="img-responsive" alt="me" />
+                            <img src={personalPhoto} class="img-responsive" alt="me" />
                             </div>
                         </div>
                         </div>

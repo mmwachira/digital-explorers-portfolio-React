@@ -1,30 +1,14 @@
 import React from "react";
+//import {Helmet} from "react-helmet";
+//import ScriptTag from 'react-script-tag';
+//import mainJS from '../js/main.js';
+//import contactForm from '../contactform/contactform.js';
 
 class Home extends React.Component{
     render(){
-        return( 
+        return(
+        <html>
         <body>
-        <nav id="main-nav">
-            <div class="row">
-                <div class="container">
-                    <div class="logo">
-                        <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
-                    </div>
-
-                    <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
-
-                    <ul class="nav-menu list-unstyled">
-                        <li><a href="#header" class="smoothScroll">Home</a></li>
-                        <li><a href="#about" class="smoothScroll">About</a></li>
-                        <li><a href="#portfolio" class="smoothScroll">Projects</a></li>
-                        <li><a href="#interests" class="smoothScroll">Interests</a></li>
-                        <li><a href="#contact" class="smoothScroll">Contact</a></li>
-                    </ul>
-                </div>
-                
-            </div>
-        </nav>
-
         {/*JavaScript Libraries*/}
         <script src="lib/jquery/jquery.min.js"></script>
         <script src="lib/jquery/jquery-migrate.min.js"></script>
@@ -37,11 +21,14 @@ class Home extends React.Component{
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
         {/* Contact Form JavaScript File */}
-        <script src="contactform/contactform.js"></script>
+        {/*<script src={contactForm}></script>*/}
 
         {/*Main JavaScript File*/}
-        <script src="js/main.js"></script>
-    </body>
+        
+        {/*<ScriptTag src="../js/main.js" />*/}
+        </body>
+        </html>     
+        
         );
 }
 }
